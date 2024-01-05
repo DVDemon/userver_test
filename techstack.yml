@@ -1,7 +1,8 @@
 repo_name: DVDemon/userver_test
 report_id: 9a81db2ae92f36d72c0912dc096820f9
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T07:36:52+00:00'
+timestamp: '2024-01-05T08:57:41+00:00'
 requested_by: DVDemon
 provider: github
 branch: develop
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/DVDemon/userver_test
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/DVDemon/userver_test
   detection_source: Repo Metadata
 - name: CMake
   description: 'An open-source system that manages the build process '
@@ -35,6 +38,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/DVDemon/userver_test
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -44,6 +48,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DVDemon/userver_test
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -53,7 +58,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/update-submodules.yaml"
+  detection_source_url: https://github.com/DVDemon/userver_test/blob/develop/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
   last_updated_by: Dmitriy Dzyuba
   last_updated_on: 2023-09-24 18:24:22.000000000 Z
 - name: Websockets
@@ -63,7 +69,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/4220/LNPwoiWi_400x400.jpg
-  detection_source_url: tests/requirements.txt
+  detection_source_url: https://github.com/DVDemon/userver_test/blob/develop/tests/requirements.txt
   detection_source: tests/requirements.txt
   last_updated_by: Dmitriy Dzyuba
   last_updated_on: 2023-09-24 18:24:22.000000000 Z
